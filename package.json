@@ -1,0 +1,96 @@
+{
+  "name": "rtms",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "@coreui/chartjs": "^2.0.0",
+    "@coreui/coreui": "^3.4.0",
+    "@coreui/icons": "^2.0.0-rc.0",
+    "@coreui/icons-react": "^1.0.2",
+    "@coreui/react": "^3.3.4",
+    "@coreui/react-chartjs": "^1.0.1",
+    "@coreui/utils": "^1.3.1",
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "@fortawesome/fontawesome-svg-core": "^1.3.0",
+    "@react-icons/all-files": "^4.1.0",
+    "antd": "^4.5.4",
+    "axios": "^0.24.0",
+    "classnames": "^2.2.6",
+    "core-js": "^3.8.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.5",
+    "font-awesome": "^4.7.0",
+    "history": "^5.0.1",
+    "is-reachable": "^5.1.1",
+    "jwt-decode": "^3.0.0-beta.2",
+    "line-api": "^0.2.1",
+    "line-notify-nodejs": "^1.0.0",
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.32",
+    "node-cron": "^3.0.0",
+    "node-sass": "^4.14.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.14.0",
+    "react-app-polyfill": "^2.0.0",
+    "react-bootstrap-typeahead": "^5.1.1",
+    "react-barcode-reader": "^0.0.2",
+    "react-dom": "^16.14.0",
+    "react-icons": "^4.2.0",
+    "react-redux": "^7.2.2",
+    "react-router-dom": "^5.2.0",
+    "react-simple-keyboard": "^3.0.85",
+    "react-virtual-keyboard": "^1.0.2",
+    "reactstrap": "^8.7.1",
+    "redux": "4.0.5",
+    "socket.io-client": "^2.0.4",
+    "sweetalert2": "^10.10.4",
+    "use-scan-detection": "^0.2.3"
+  },
+  "devDependencies": {
+    "auto-changelog": "~2.2.1",
+    "react-scripts": "~4.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "test:cov": "npm test -- --coverage --watchAll=false",
+    "test:debug": "react-scripts --inspect-brk test --runInBand",
+    "eject": "react-scripts eject",
+    "changelog": "auto-changelog --starting-version 3.0.0 --commit-limit false --hide-credit"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 10",
+    "not op_mini all"
+  ],
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}",
+      "!**/*index.js",
+      "!src/serviceWorker.js",
+      "!src/polyfill.js"
+    ]
+  },
+  "engines": {
+    "node": ">=10",
+    "npm": ">=6"
+  },
+  "homepage": "./",
+  "description": "[![@coreui coreui](https://img.shields.io/badge/@coreui%20-coreui-lightgrey.svg?style=flat-square)](https://github.com/coreui/coreui)\r [![npm package][npm-coreui-badge]][npm-coreui]\r [![NPM downloads][npm-coreui-download]][npm-coreui]  \r [![@coreui react](https://img.shields.io/badge/@coreui%20-react-lightgrey.svg?style=flat-square)](https://github.com/coreui/react)\r [![npm package][npm-coreui-react-badge]][npm-coreui-react]\r [![NPM downloads][npm-coreui-react-download]][npm-coreui-react]  \r [![npm next][npm-next]][npm]",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/90f6bc51ae5635fe7feb85b96b3c6f16/rmts_Vending_new.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/90f6bc51ae5635fe7feb85b96b3c6f16/rmts_Vending_new/issues"
+  }
+}
